@@ -1,0 +1,9 @@
+.container {
+    max-width: $container-width;
+    background-color: #7e9398; 
+}
+
+.app-header {
+    height: 70px;
+    border-radius: $rounded-md;
+}

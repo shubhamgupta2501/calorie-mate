@@ -1,0 +1,42 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7e9398; /* Updated background color */
+    color: white; /* Updated text color for better contrast */
+    padding: 10px 10px;
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      display: flex;
+      gap: 20px;
+  
+      span {
+        cursor: pointer;
+        transition: color 0.3s ease;
+  
+        &:hover {
+          color: #e8a87c; /* Updated hover effect color */
+        }
+      }
+    }
+  
+    .sign-in-button {
+      background-color: white; /* Updated button background color */
+      color: #333;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #41b3a3; /* Updated hover effect button background color */
+      }
+    }
+  }
+  
